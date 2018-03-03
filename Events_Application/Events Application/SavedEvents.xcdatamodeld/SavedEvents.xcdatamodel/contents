@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="11759" systemVersion="15G1611" minimumToolsVersion="Automatic" sourceLanguage="Swift" userDefinedModelVersionIdentifier="">
+    <entity name="CreatedEvent" representedClassName="CreatedEvent" syncable="YES" codeGenerationType="class">
+        <attribute name="cityTxt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="countryTxt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="timeTxt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="titleTxt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="urlTxt" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venueTxt" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="SavedEvent" representedClassName="SavedEvent" syncable="YES" codeGenerationType="class">
+        <attribute name="city_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="country_name" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="start_time" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="title" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="url" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="venue_name" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="SavedEvent" positionX="-36" positionY="9" width="128" height="135"/>
+        <element name="CreatedEvent" positionX="-36" positionY="54" width="128" height="135"/>
+    </elements>
+</model>

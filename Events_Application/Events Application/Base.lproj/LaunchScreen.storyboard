@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="11762" systemVersion="15G1611" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="01J-lp-oVM">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11757"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="BCU_LOGO_TRANSPARENT_200" translatesAutoresizingMaskIntoConstraints="NO" id="L3Y-2w-rZO">
+                                <rect key="frame" x="78" y="185" width="219" height="208"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="208" id="BUa-pu-WZe"/>
+                                    <constraint firstAttribute="width" constant="219" id="ldn-QZ-f8C"/>
+                                </constraints>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Kristian Curcic" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="hUW-dt-iYC">
+                                <rect key="frame" x="16" y="53" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="H4q-gJ-AM7"/>
+                                    <constraint firstAttribute="height" constant="21" id="udB-ID-0oH"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="23"/>
+                                <color key="textColor" red="0.60444617140000001" green="0.017191905090000001" blue="0.066908928209999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="S14103017" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="wm3-br-LcU">
+                                <rect key="frame" x="16" y="105" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="21" id="AAg-xP-WEc"/>
+                                    <constraint firstAttribute="width" constant="343" id="Bm3-cz-BAg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <color key="textColor" red="0.60444617140000001" green="0.017191905090000001" blue="0.066908928209999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="CMP6168" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="FMg-WP-gwn">
+                                <rect key="frame" x="16" y="444" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="boo-8t-uQ6"/>
+                                    <constraint firstAttribute="height" constant="21" id="n7f-ni-Fx0"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="textColor" red="0.60444617140000001" green="0.017191905090000001" blue="0.066908928209999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Mobile and Web Technologies" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="99r-Xi-XeA">
+                                <rect key="frame" x="16" y="473" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="NsB-2R-gxz"/>
+                                    <constraint firstAttribute="height" constant="21" id="ycC-YX-iDO"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="18"/>
+                                <color key="textColor" red="0.60444617140000001" green="0.017191905090000001" blue="0.066908928209999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Birmingham City University" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="mht-3f-Fui">
+                                <rect key="frame" x="16" y="539" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="kVf-y8-Ccl"/>
+                                    <constraint firstAttribute="height" constant="21" id="kik-3W-bpV"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" red="0.60444617140000001" green="0.017191905090000001" blue="0.066908928209999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Tutor: Harjinder Singh" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="vC8-hl-ien">
+                                <rect key="frame" x="16" y="614" width="343" height="21"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="343" id="hRW-HD-9KQ"/>
+                                    <constraint firstAttribute="height" constant="21" id="krI-fs-k8x"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="16"/>
+                                <color key="textColor" red="0.60444617140000001" green="0.017191905090000001" blue="0.066908928209999996" alpha="1" colorSpace="calibratedRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" cocoaTouchSystemColor="darkTextColor"/>
+                        <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="hUW-dt-iYC" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6Dc-3R-YNy"/>
+                            <constraint firstItem="L3Y-2w-rZO" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="6dV-BA-VxJ"/>
+                            <constraint firstItem="L3Y-2w-rZO" firstAttribute="top" secondItem="wm3-br-LcU" secondAttribute="bottom" constant="59" id="RSa-bp-YH3"/>
+                            <constraint firstItem="vC8-hl-ien" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ZVQ-9h-UvO"/>
+                            <constraint firstItem="vC8-hl-ien" firstAttribute="top" secondItem="mht-3f-Fui" secondAttribute="bottom" constant="54" id="a4Q-u4-3Az"/>
+                            <constraint firstItem="FMg-WP-gwn" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="b13-p8-bOP"/>
+                            <constraint firstItem="mht-3f-Fui" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="eNA-jp-cGK"/>
+                            <constraint firstItem="wm3-br-LcU" firstAttribute="top" secondItem="hUW-dt-iYC" secondAttribute="bottom" constant="31" id="f7r-Dd-dOP"/>
+                            <constraint firstItem="mht-3f-Fui" firstAttribute="top" secondItem="99r-Xi-XeA" secondAttribute="bottom" constant="45" id="fml-iq-g1c"/>
+                            <constraint firstItem="99r-Xi-XeA" firstAttribute="top" secondItem="FMg-WP-gwn" secondAttribute="bottom" constant="8" id="gaD-iR-2xr"/>
+                            <constraint firstItem="hUW-dt-iYC" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="33" id="h0V-b7-QG8"/>
+                            <constraint firstItem="99r-Xi-XeA" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="nYf-no-fCR"/>
+                            <constraint firstItem="FMg-WP-gwn" firstAttribute="top" secondItem="L3Y-2w-rZO" secondAttribute="bottom" constant="51" id="yBl-52-cAj"/>
+                            <constraint firstItem="wm3-br-LcU" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="ybB-9F-ebQ"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52" y="374.66266866566718"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="BCU_LOGO_TRANSPARENT_200" width="200" height="200"/>
+    </resources>
+</document>
