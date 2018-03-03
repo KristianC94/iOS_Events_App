@@ -11,3 +11,5 @@ iOS Events App - developed for Mobile & Web Technologies I module
 Written in Swift. App is required to be opened in XCode IDE in order 
 to run either on an iPhone/iPad or an emulator. An internet 
 connection is required for the application to work correctly.
+
+See more about Eventful API here: http://api.eventful.com/
